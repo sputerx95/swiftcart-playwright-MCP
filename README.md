@@ -37,7 +37,7 @@ swiftcart-playwright-mcp/
 ├── tests/              # Scenario specs (test.step + comments)
 ├── poms/               # Page Object Model
 ├── utils/testData.ts
-├── docs/               # MCP workflow, Context7, local Cursor setup template
+├── docs/               # MCP workflow, Context7, case study notes
 ├── screenshots/        # Add report/UI captures for README
 ├── .github/workflows/playwright.yml
 └── testplan.md
@@ -45,12 +45,9 @@ swiftcart-playwright-mcp/
 
 ---
 
-## MCP setup (local only — not pushed to GitHub)
+## MCP workflow
 
-The `.cursor/` folder stays on your machine only (see `.gitignore`).
-
-Setup: [docs/cursor-local-setup.md](docs/cursor-local-setup.md)  
-Workflow: [docs/mcp-workflow.md](docs/mcp-workflow.md) · Context7: [docs/context7-usage.md](docs/context7-usage.md)
+See [docs/mcp-workflow.md](docs/mcp-workflow.md) and [docs/context7-usage.md](docs/context7-usage.md). IDE/MCP config is local only — not stored in this repository.
 
 ---
 
@@ -103,7 +100,6 @@ GitHub Actions (`.github/workflows/playwright.yml`):
 - [Prompts used](docs/prompts-used.md)
 - [Before / after refactor](docs/before-after-refactor.md)
 - [Lessons learned](docs/lessons-learned.md)
-- [Cursor local setup](docs/cursor-local-setup.md) (template only — `.cursor/` not in repo)
 
 ---
 

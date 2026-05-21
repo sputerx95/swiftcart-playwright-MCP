@@ -1,10 +1,10 @@
 # Playwright MCP workflow
 
-## Setup
+## Setup (local IDE only — not in this repo)
 
-1. Follow [cursor-local-setup.md](cursor-local-setup.md) — create `.cursor/mcp.json` locally (gitignored).
-2. In **Cursor → Settings → MCP**, enable **playwright** and **context7**.
-3. Optional: `npx ctx7 setup --cursor --mcp --project -y` for OAuth Context7.
+1. In your editor, enable MCP servers **playwright** (`npx -y @playwright/mcp@latest`) and **context7** (OAuth via Context7).
+2. Optional: `npx ctx7 setup --cursor --mcp --project -y`
+3. Do not commit IDE config folders or API keys to GitHub.
 
 ## Flow (test plan → automated spec)
 
