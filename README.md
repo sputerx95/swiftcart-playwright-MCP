@@ -37,27 +37,20 @@ swiftcart-playwright-mcp/
 ├── tests/              # Scenario specs (test.step + comments)
 ├── poms/               # Page Object Model
 ├── utils/testData.ts
-├── docs/               # MCP workflow, Context7, case study notes
+├── docs/               # MCP workflow, Context7, local Cursor setup template
 ├── screenshots/        # Add report/UI captures for README
-├── .cursor/
-│   ├── mcp.example.json
-│   └── rules/
 ├── .github/workflows/playwright.yml
 └── testplan.md
 ```
 
 ---
 
-## MCP setup (local)
+## MCP setup (local only — not pushed to GitHub)
 
-```bash
-cp .cursor/mcp.example.json .cursor/mcp.json
-```
+The `.cursor/` folder stays on your machine only (see `.gitignore`).
 
-Enable **playwright** and **context7** in **Cursor → Settings → MCP**.  
-Do **not** commit `.cursor/mcp.json` if it contains API keys.
-
-See [docs/mcp-workflow.md](docs/mcp-workflow.md) and [docs/context7-usage.md](docs/context7-usage.md).
+Setup: [docs/cursor-local-setup.md](docs/cursor-local-setup.md)  
+Workflow: [docs/mcp-workflow.md](docs/mcp-workflow.md) · Context7: [docs/context7-usage.md](docs/context7-usage.md)
 
 ---
 
@@ -110,6 +103,7 @@ GitHub Actions (`.github/workflows/playwright.yml`):
 - [Prompts used](docs/prompts-used.md)
 - [Before / after refactor](docs/before-after-refactor.md)
 - [Lessons learned](docs/lessons-learned.md)
+- [Cursor local setup](docs/cursor-local-setup.md) (template only — `.cursor/` not in repo)
 
 ---
 

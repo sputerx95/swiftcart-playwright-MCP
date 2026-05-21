@@ -2,7 +2,7 @@
 
 ## Setup
 
-1. Copy `.cursor/mcp.example.json` → `.cursor/mcp.json` (do not commit secrets).
+1. Follow [cursor-local-setup.md](cursor-local-setup.md) — create `.cursor/mcp.json` locally (gitignored).
 2. In **Cursor → Settings → MCP**, enable **playwright** and **context7**.
 3. Optional: `npx ctx7 setup --cursor --mcp --project -y` for OAuth Context7.
 

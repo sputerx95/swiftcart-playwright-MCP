@@ -1,5 +1,0 @@
----
-alwaysApply: true
----
-
-Use Context7 MCP for up-to-date Playwright, TypeScript, and MCP documentation when implementing or refactoring tests in this repo.
