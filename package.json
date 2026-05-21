@@ -1,0 +1,18 @@
+{
+  "name": "swiftcart-playwright-mcp",
+  "version": "1.0.0",
+  "description": "AI-assisted Playwright QA case study — Cursor, Playwright MCP, Context7 MCP",
+  "private": true,
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed --project=chromium",
+    "test:ui": "playwright test --ui",
+    "test:debug": "playwright test --debug",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.53.0",
+    "@types/node": "^24.0.0",
+    "typescript": "^5.8.0"
+  }
+}
